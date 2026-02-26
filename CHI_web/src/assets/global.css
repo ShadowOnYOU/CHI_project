@@ -1,0 +1,124 @@
+body {
+    margin:0;
+    padding:0;
+}
+
+.fc-toolbar-title {
+    color: #668ca3;
+}
+
+.el-button {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    /*rgba(0, 0, 0, 0.2)*/
+
+}
+.el-dialog {
+    border-radius: 20px;
+}
+.tams-search-container {
+    padding-bottom: 10px;
+}
+.tams-search-container .tams-search-item {
+    width: 200px;
+    margin-right: 10px;
+}
+
+.tams-search-container .tams-operate-item {
+    float: right;
+}
+
+.tams-form-container .tams-form-item {
+    width: 135px;
+    border: none;
+}
+
+/*重写element样式*/
+.el-card__header {
+    padding: 9px 10px;
+}
+
+
+.el-table td, .el-table th {
+    padding: 8px 0;
+    min-width: 0;
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    position: relative;
+    text-align: left;
+}
+
+.el-popconfirm__action .el-button:nth-child(1) {
+    float: right;
+    color: white;
+    width: 60px;
+    background: #409eff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+}
+.el-table__header-wrapper {
+    background: #ff5667;
+}
+
+.el-popconfirm__action .el-button:nth-child(2) {
+    float: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+    background: #ff5667;
+    border: none;
+}
+.fc-resetButton-button
+{
+    border-color: royalblue !important;
+    background: royalblue !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+.fc-confirmButton-button
+{
+    border-color: #14AE02 !important;
+    background: #14AE02 !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.fc-daygrid-event, .fc-event, .fullcalendar-container .fc-event {
+    white-space: pre-wrap !important;
+
+}
+
+.fc-timegrid-event-harness-inset .fc-timegrid-event {
+    box-shadow: none;
+}
+/*.fc td, .fc th {*/
+/*    border-style: none !important;*/
+/*}*/
+
+#course-scheduling .fc-col-header-cell.fc-day{
+    pointer-events: none;
+}
+
+#course-scheduling .fc-daygrid-day.fc-day{
+    pointer-events: none;
+    border: coral;
+}
+.label .cell {
+    color: #3788d8;
+}
+.course .cell {
+    color: #f25022;
+}
+.green-button {
+    background-color: white;
+    border-color: rgba(0, 0, 0, 0.1);
+    color: #409eff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+
+}
+.stop .cell {
+    color: #668ca3;
+}
+.fc-v-event .fc-event-title {
+    top: 0;
+    bottom: 0;
+    max-height: 100%;
+    overflow: hidden;
+}
