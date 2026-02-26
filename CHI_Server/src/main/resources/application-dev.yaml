@@ -1,0 +1,15 @@
+
+spring:
+  datasource:
+    druid:
+      url: jdbc:mysql://localhost:3306/tams?useSSL=true&useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+      username: root
+      password: Zjh6467965
+      initial-size: 1
+      min-idle: 1
+      max-active: 20
+      max-wait: 30000
+
+logging:
+  level:
+    com.lhd.tams: debug

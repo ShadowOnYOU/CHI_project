@@ -1,0 +1,74 @@
+2023-12-28 04:28:08.187 AbstractEntityManagerFactoryBean.destroy:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-28 04:28:08.201 ExecutorConfigurationSupport.shutdown:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-12-28 04:28:08.202 DruidDataSource.close:2024 - {dataSource-1} closing ...
+2023-12-28 04:28:08.210 DruidDataSource.close:2096 - {dataSource-1} closed
+2023-12-28 08:20:29.749 StartupInfoLogger.logStarting:55 - Starting TamsApplication on LAPTOP-5GP27RPP with PID 11548 (C:\Users\fxzxz\Desktop\pre\CHI_Server\target\classes started by fxzxz in C:\Users\fxzxz\Desktop\pre\CHI_Server)
+2023-12-28 08:20:29.753 SpringApplication.logStartupProfileInfo:655 - The following profiles are active: dev
+2023-12-28 08:20:31.155 RepositoryConfigurationDelegate.registerRepositoriesIn:127 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2023-12-28 08:20:31.323 RepositoryConfigurationDelegate.registerRepositoriesIn:187 - Finished Spring Data repository scanning in 156ms. Found 4 JPA repository interfaces.
+2023-12-28 08:20:31.991 TomcatWebServer.initialize:108 - Tomcat initialized with port(s): 12010 (http)
+2023-12-28 08:20:32.001 DirectJDKLog.log:173 - Initializing ProtocolHandler ["http-nio-12010"]
+2023-12-28 08:20:32.002 DirectJDKLog.log:173 - Starting service [Tomcat]
+2023-12-28 08:20:32.002 DirectJDKLog.log:173 - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-12-28 08:20:32.004 DirectJDKLog.log:173 - Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+2023-12-28 08:20:32.004 DirectJDKLog.log:173 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-12-28 08:20:32.004 DirectJDKLog.log:173 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-28 08:20:32.034 DirectJDKLog.log:173 - OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+2023-12-28 08:20:32.137 DirectJDKLog.log:173 - Initializing Spring embedded WebApplicationContext
+2023-12-28 08:20:32.137 ServletWebServerApplicationContext.prepareWebApplicationContext:285 - Root WebApplicationContext: initialization completed in 2263 ms
+2023-12-28 08:20:32.187 DruidDataSourceAutoConfigure.dataSource:56 - Init DruidDataSource
+2023-12-28 08:20:32.763 DruidDataSource.init:983 - {dataSource-1} inited
+2023-12-28 08:20:32.824 ExecutorConfigurationSupport.initialize:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2023-12-28 08:20:32.912 LogHelper.logPersistenceUnitInformation:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-28 08:20:32.989 Version.logVersion:44 - HHH000412: Hibernate ORM core version 5.4.18.Final
+2023-12-28 08:20:33.184 JavaReflectionManager.<clinit>:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-12-28 08:20:33.343 Dialect.<init>:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-12-28 08:20:34.192 JtaPlatformInitiator.initiateService:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-28 08:20:34.201 AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-28 08:20:37.057 DirectJDKLog.log:173 - Starting ProtocolHandler ["http-nio-12010"]
+2023-12-28 08:20:37.079 TomcatWebServer.start:220 - Tomcat started on port(s): 12010 (http) with context path ''
+2023-12-28 08:20:37.490 DeferredRepositoryInitializationListener.onApplicationEvent:49 - Triggering deferred initialization of Spring Data repositories…
+2023-12-28 08:20:37.491 DeferredRepositoryInitializationListener.onApplicationEvent:53 - Spring Data repositories initialized!
+2023-12-28 08:20:37.499 StartupInfoLogger.logStarted:61 - Started TamsApplication in 8.743 seconds (JVM running for 10.716)
+2023-12-28 08:21:02.850 DirectJDKLog.log:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-28 08:21:02.851 FrameworkServlet.initServletBean:525 - Initializing Servlet 'dispatcherServlet'
+2023-12-28 08:21:02.859 FrameworkServlet.initServletBean:547 - Completed initialization in 8 ms
+2023-12-28 08:26:51.219 AbstractEntityManagerFactoryBean.destroy:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-28 08:26:51.221 ExecutorConfigurationSupport.shutdown:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-12-28 08:26:51.222 DruidDataSource.close:2024 - {dataSource-1} closing ...
+2023-12-28 08:26:51.229 DruidDataSource.close:2096 - {dataSource-1} closed
+2023-12-28 08:56:42.886 StartupInfoLogger.logStarting:55 - Starting TamsApplication on LAPTOP-5GP27RPP with PID 11860 (C:\Users\fxzxz\Desktop\pre\CHI_Server\target\classes started by fxzxz in C:\Users\fxzxz\Desktop\pre\CHI_Server)
+2023-12-28 08:56:42.889 SpringApplication.logStartupProfileInfo:655 - The following profiles are active: dev
+2023-12-28 08:56:43.957 RepositoryConfigurationDelegate.registerRepositoriesIn:127 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2023-12-28 08:56:44.117 RepositoryConfigurationDelegate.registerRepositoriesIn:187 - Finished Spring Data repository scanning in 147ms. Found 4 JPA repository interfaces.
+2023-12-28 08:56:44.728 TomcatWebServer.initialize:108 - Tomcat initialized with port(s): 12010 (http)
+2023-12-28 08:56:44.738 DirectJDKLog.log:173 - Initializing ProtocolHandler ["http-nio-12010"]
+2023-12-28 08:56:44.738 DirectJDKLog.log:173 - Starting service [Tomcat]
+2023-12-28 08:56:44.738 DirectJDKLog.log:173 - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-12-28 08:56:44.740 DirectJDKLog.log:173 - Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+2023-12-28 08:56:44.741 DirectJDKLog.log:173 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-12-28 08:56:44.741 DirectJDKLog.log:173 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-28 08:56:44.769 DirectJDKLog.log:173 - OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+2023-12-28 08:56:44.866 DirectJDKLog.log:173 - Initializing Spring embedded WebApplicationContext
+2023-12-28 08:56:44.867 ServletWebServerApplicationContext.prepareWebApplicationContext:285 - Root WebApplicationContext: initialization completed in 1938 ms
+2023-12-28 08:56:44.913 DruidDataSourceAutoConfigure.dataSource:56 - Init DruidDataSource
+2023-12-28 08:56:45.503 DruidDataSource.init:983 - {dataSource-1} inited
+2023-12-28 08:56:45.559 ExecutorConfigurationSupport.initialize:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2023-12-28 08:56:45.643 LogHelper.logPersistenceUnitInformation:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-28 08:56:45.719 Version.logVersion:44 - HHH000412: Hibernate ORM core version 5.4.18.Final
+2023-12-28 08:56:45.903 JavaReflectionManager.<clinit>:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-12-28 08:56:46.040 Dialect.<init>:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-12-28 08:56:46.677 JtaPlatformInitiator.initiateService:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-28 08:56:46.687 AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-28 08:56:49.682 DirectJDKLog.log:173 - Starting ProtocolHandler ["http-nio-12010"]
+2023-12-28 08:56:49.711 TomcatWebServer.start:220 - Tomcat started on port(s): 12010 (http) with context path ''
+2023-12-28 08:56:50.144 DeferredRepositoryInitializationListener.onApplicationEvent:49 - Triggering deferred initialization of Spring Data repositories…
+2023-12-28 08:56:50.145 DeferredRepositoryInitializationListener.onApplicationEvent:53 - Spring Data repositories initialized!
+2023-12-28 08:56:50.154 StartupInfoLogger.logStarted:61 - Started TamsApplication in 7.956 seconds (JVM running for 9.622)
+2023-12-28 08:57:22.613 DirectJDKLog.log:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-28 08:57:22.614 FrameworkServlet.initServletBean:525 - Initializing Servlet 'dispatcherServlet'
+2023-12-28 08:57:22.626 FrameworkServlet.initServletBean:547 - Completed initialization in 11 ms
+2023-12-28 09:31:32.349 AbstractEntityManagerFactoryBean.destroy:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-28 09:31:32.352 ExecutorConfigurationSupport.shutdown:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-12-28 09:31:32.353 DruidDataSource.close:2024 - {dataSource-1} closing ...
+2023-12-28 09:31:32.363 DruidDataSource.close:2096 - {dataSource-1} closed
